@@ -59,7 +59,7 @@ void setup() {
   //sensor2.setVref(bias, R2);
   //sensor2.pGain = 100000; //resistor R6
 
-  //if you know the V_ref replace the following code...
+  //if you know the V_ref replace the following codef...
   Serial.println("Remove Sensor.");
   if (sensor1.OCzero(n)) {
     Serial.print("Vref new = ");
